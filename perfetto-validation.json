@@ -1,0 +1,554 @@
+[
+  {
+    "file": "00-baseline-rank0.trace.json.gz",
+    "sha256": "1111da8ec4b0647af10c42416011a218966d67c0715d169ef21dd143a5f5074e",
+    "categories": [
+      {
+        "category": null,
+        "count": 2
+      },
+      {
+        "category": "Trace",
+        "count": 1
+      },
+      {
+        "category": "cpu_op",
+        "count": 15315
+      },
+      {
+        "category": "cuda_driver",
+        "count": 1174
+      },
+      {
+        "category": "cuda_runtime",
+        "count": 5860
+      },
+      {
+        "category": "gpu_memcpy",
+        "count": 102
+      },
+      {
+        "category": "gpu_memset",
+        "count": 1
+      },
+      {
+        "category": "gpu_user_annotation",
+        "count": 248
+      },
+      {
+        "category": "kernel",
+        "count": 2586
+      },
+      {
+        "category": "overhead",
+        "count": 1
+      },
+      {
+        "category": "user_annotation",
+        "count": 293
+      }
+    ],
+    "scopes": [
+      {
+        "name": "CP._gather_interleaved_tensor [baseline]",
+        "count": 54
+      },
+      {
+        "name": "CP.gather.restore_token_order",
+        "count": 54
+      }
+    ],
+    "import_errors": [
+      {
+        "name": "slice_spill_overlapping_complete_event",
+        "value": 118
+      }
+    ],
+    "reconciled_cpu_gpu_python_counts": true
+  },
+  {
+    "file": "01-candidate-rank0.trace.json.gz",
+    "sha256": "5d871f65c663627e0ae0f2f7d7b7b3bb5f602ea89bcbf23846853cb479737a44",
+    "categories": [
+      {
+        "category": null,
+        "count": 2
+      },
+      {
+        "category": "Trace",
+        "count": 1
+      },
+      {
+        "category": "cpu_op",
+        "count": 14850
+      },
+      {
+        "category": "cuda_driver",
+        "count": 1201
+      },
+      {
+        "category": "cuda_runtime",
+        "count": 5533
+      },
+      {
+        "category": "gpu_memcpy",
+        "count": 102
+      },
+      {
+        "category": "gpu_memset",
+        "count": 1
+      },
+      {
+        "category": "gpu_user_annotation",
+        "count": 248
+      },
+      {
+        "category": "kernel",
+        "count": 2451
+      },
+      {
+        "category": "overhead",
+        "count": 1
+      },
+      {
+        "category": "user_annotation",
+        "count": 287
+      }
+    ],
+    "scopes": [
+      {
+        "name": "CP._gather_interleaved_tensor [candidate]",
+        "count": 54
+      },
+      {
+        "name": "CP.gather.restore_token_order",
+        "count": 54
+      }
+    ],
+    "import_errors": [
+      {
+        "name": "slice_spill_overlapping_complete_event",
+        "value": 140
+      }
+    ],
+    "reconciled_cpu_gpu_python_counts": true
+  },
+  {
+    "file": "02-candidate-rank0.trace.json.gz",
+    "sha256": "63aa9f2ef575be781b93c44feee27f81efc7e7e98168044f32232a84c2b8e53c",
+    "categories": [
+      {
+        "category": null,
+        "count": 2
+      },
+      {
+        "category": "Trace",
+        "count": 1
+      },
+      {
+        "category": "cpu_op",
+        "count": 14850
+      },
+      {
+        "category": "cuda_driver",
+        "count": 1201
+      },
+      {
+        "category": "cuda_runtime",
+        "count": 5566
+      },
+      {
+        "category": "gpu_memcpy",
+        "count": 102
+      },
+      {
+        "category": "gpu_memset",
+        "count": 1
+      },
+      {
+        "category": "gpu_user_annotation",
+        "count": 248
+      },
+      {
+        "category": "kernel",
+        "count": 2451
+      },
+      {
+        "category": "overhead",
+        "count": 1
+      },
+      {
+        "category": "user_annotation",
+        "count": 287
+      }
+    ],
+    "scopes": [
+      {
+        "name": "CP._gather_interleaved_tensor [candidate]",
+        "count": 54
+      },
+      {
+        "name": "CP.gather.restore_token_order",
+        "count": 54
+      }
+    ],
+    "import_errors": [
+      {
+        "name": "slice_spill_overlapping_complete_event",
+        "value": 143
+      }
+    ],
+    "reconciled_cpu_gpu_python_counts": true
+  },
+  {
+    "file": "03-baseline-rank0.trace.json.gz",
+    "sha256": "b3599f879e22403b76cbf032e89504dc4749d40af82ac5e28d0498c05fc1b2a1",
+    "categories": [
+      {
+        "category": null,
+        "count": 2
+      },
+      {
+        "category": "Trace",
+        "count": 1
+      },
+      {
+        "category": "cpu_op",
+        "count": 15309
+      },
+      {
+        "category": "cuda_driver",
+        "count": 1174
+      },
+      {
+        "category": "cuda_runtime",
+        "count": 5570
+      },
+      {
+        "category": "gpu_memcpy",
+        "count": 102
+      },
+      {
+        "category": "gpu_memset",
+        "count": 1
+      },
+      {
+        "category": "gpu_user_annotation",
+        "count": 248
+      },
+      {
+        "category": "kernel",
+        "count": 2586
+      },
+      {
+        "category": "overhead",
+        "count": 1
+      },
+      {
+        "category": "user_annotation",
+        "count": 287
+      }
+    ],
+    "scopes": [
+      {
+        "name": "CP._gather_interleaved_tensor [baseline]",
+        "count": 54
+      },
+      {
+        "name": "CP.gather.restore_token_order",
+        "count": 54
+      }
+    ],
+    "import_errors": [
+      {
+        "name": "slice_spill_overlapping_complete_event",
+        "value": 145
+      }
+    ],
+    "reconciled_cpu_gpu_python_counts": true
+  },
+  {
+    "file": "with-stacks/00-baseline-rank0.trace.json.gz",
+    "sha256": "461fa1ba489f883f984a6d57d4295ce1572e3b53a786c4ce35664b0477705b63",
+    "categories": [
+      {
+        "category": null,
+        "count": 2
+      },
+      {
+        "category": "Trace",
+        "count": 1
+      },
+      {
+        "category": "cpu_op",
+        "count": 15309
+      },
+      {
+        "category": "cuda_driver",
+        "count": 1174
+      },
+      {
+        "category": "cuda_runtime",
+        "count": 5725
+      },
+      {
+        "category": "gpu_memcpy",
+        "count": 102
+      },
+      {
+        "category": "gpu_memset",
+        "count": 1
+      },
+      {
+        "category": "gpu_user_annotation",
+        "count": 248
+      },
+      {
+        "category": "kernel",
+        "count": 2586
+      },
+      {
+        "category": "overhead",
+        "count": 2
+      },
+      {
+        "category": "python_function",
+        "count": 188258
+      },
+      {
+        "category": "user_annotation",
+        "count": 287
+      }
+    ],
+    "scopes": [
+      {
+        "name": "CP._gather_interleaved_tensor [baseline]",
+        "count": 54
+      },
+      {
+        "name": "CP.gather.restore_token_order",
+        "count": 54
+      }
+    ],
+    "import_errors": [
+      {
+        "name": "slice_spill_overlapping_complete_event",
+        "value": 180
+      }
+    ],
+    "reconciled_cpu_gpu_python_counts": true
+  },
+  {
+    "file": "with-stacks/01-candidate-rank0.trace.json.gz",
+    "sha256": "9c71bc9ede12e24d13c747fd1987b7450e51c187ac0880c9b296b86e500a6b3a",
+    "categories": [
+      {
+        "category": null,
+        "count": 2
+      },
+      {
+        "category": "Trace",
+        "count": 1
+      },
+      {
+        "category": "cpu_op",
+        "count": 14844
+      },
+      {
+        "category": "cuda_driver",
+        "count": 1201
+      },
+      {
+        "category": "cuda_runtime",
+        "count": 5616
+      },
+      {
+        "category": "gpu_memcpy",
+        "count": 102
+      },
+      {
+        "category": "gpu_memset",
+        "count": 1
+      },
+      {
+        "category": "gpu_user_annotation",
+        "count": 248
+      },
+      {
+        "category": "kernel",
+        "count": 2451
+      },
+      {
+        "category": "overhead",
+        "count": 1
+      },
+      {
+        "category": "python_function",
+        "count": 188907
+      },
+      {
+        "category": "user_annotation",
+        "count": 281
+      }
+    ],
+    "scopes": [
+      {
+        "name": "CP._gather_interleaved_tensor [candidate]",
+        "count": 54
+      },
+      {
+        "name": "CP.gather.restore_token_order",
+        "count": 54
+      }
+    ],
+    "import_errors": [
+      {
+        "name": "slice_spill_overlapping_complete_event",
+        "value": 382
+      }
+    ],
+    "reconciled_cpu_gpu_python_counts": true
+  },
+  {
+    "file": "with-stacks/02-candidate-rank0.trace.json.gz",
+    "sha256": "d6f8d512f9387143f06d05606985cbcca039047141198257590a0c917b45b88c",
+    "categories": [
+      {
+        "category": null,
+        "count": 2
+      },
+      {
+        "category": "Trace",
+        "count": 1
+      },
+      {
+        "category": "cpu_op",
+        "count": 14844
+      },
+      {
+        "category": "cuda_driver",
+        "count": 1201
+      },
+      {
+        "category": "cuda_runtime",
+        "count": 7192
+      },
+      {
+        "category": "gpu_memcpy",
+        "count": 102
+      },
+      {
+        "category": "gpu_memset",
+        "count": 1
+      },
+      {
+        "category": "gpu_user_annotation",
+        "count": 248
+      },
+      {
+        "category": "kernel",
+        "count": 2451
+      },
+      {
+        "category": "overhead",
+        "count": 1
+      },
+      {
+        "category": "python_function",
+        "count": 188913
+      },
+      {
+        "category": "user_annotation",
+        "count": 281
+      }
+    ],
+    "scopes": [
+      {
+        "name": "CP._gather_interleaved_tensor [candidate]",
+        "count": 54
+      },
+      {
+        "name": "CP.gather.restore_token_order",
+        "count": 54
+      }
+    ],
+    "import_errors": [
+      {
+        "name": "slice_spill_overlapping_complete_event",
+        "value": 383
+      }
+    ],
+    "reconciled_cpu_gpu_python_counts": true
+  },
+  {
+    "file": "with-stacks/03-baseline-rank0.trace.json.gz",
+    "sha256": "b1cdb91e5df0b25ddc265b2585d444894e12f0f4afa21788a671b321c729bea0",
+    "categories": [
+      {
+        "category": null,
+        "count": 2
+      },
+      {
+        "category": "Trace",
+        "count": 1
+      },
+      {
+        "category": "cpu_op",
+        "count": 15303
+      },
+      {
+        "category": "cuda_driver",
+        "count": 1174
+      },
+      {
+        "category": "cuda_runtime",
+        "count": 5728
+      },
+      {
+        "category": "gpu_memcpy",
+        "count": 102
+      },
+      {
+        "category": "gpu_memset",
+        "count": 1
+      },
+      {
+        "category": "gpu_user_annotation",
+        "count": 248
+      },
+      {
+        "category": "kernel",
+        "count": 2586
+      },
+      {
+        "category": "overhead",
+        "count": 1
+      },
+      {
+        "category": "python_function",
+        "count": 187395
+      },
+      {
+        "category": "user_annotation",
+        "count": 281
+      }
+    ],
+    "scopes": [
+      {
+        "name": "CP._gather_interleaved_tensor [baseline]",
+        "count": 54
+      },
+      {
+        "name": "CP.gather.restore_token_order",
+        "count": 54
+      }
+    ],
+    "import_errors": [
+      {
+        "name": "slice_spill_overlapping_complete_event",
+        "value": 206
+      }
+    ],
+    "reconciled_cpu_gpu_python_counts": true
+  }
+]

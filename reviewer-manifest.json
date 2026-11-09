@@ -1,0 +1,42 @@
+[
+  {
+    "slot": 0,
+    "arm": "baseline",
+    "tp_rank": 0,
+    "file": "00-baseline-rank0.trace.json.gz",
+    "with_stack": false,
+    "source": "/volume/eval/users/jquan02/claude/sglang-glm52-nsys-20261108/profiles/glm53-pcp-torch-fresh-ops/00-baseline/00-baseline-1794196571.5588005-TP-0.trace.json.gz",
+    "sha256": "1111da8ec4b0647af10c42416011a218966d67c0715d169ef21dd143a5f5074e",
+    "bytes": 922303
+  },
+  {
+    "slot": 1,
+    "arm": "candidate",
+    "tp_rank": 0,
+    "file": "01-candidate-rank0.trace.json.gz",
+    "with_stack": false,
+    "source": "/volume/eval/users/jquan02/claude/sglang-glm52-nsys-20261108/profiles/glm53-pcp-torch-fresh-ops/01-candidate/01-candidate-1794196572.6602798-TP-0.trace.json.gz",
+    "sha256": "5d871f65c663627e0ae0f2f7d7b7b3bb5f602ea89bcbf23846853cb479737a44",
+    "bytes": 889867
+  },
+  {
+    "slot": 2,
+    "arm": "candidate",
+    "tp_rank": 0,
+    "file": "02-candidate-rank0.trace.json.gz",
+    "with_stack": false,
+    "source": "/volume/eval/users/jquan02/claude/sglang-glm52-nsys-20261108/profiles/glm53-pcp-torch-fresh-ops/02-candidate/02-candidate-1794196573.7389433-TP-0.trace.json.gz",
+    "sha256": "63aa9f2ef575be781b93c44feee27f81efc7e7e98168044f32232a84c2b8e53c",
+    "bytes": 890128
+  },
+  {
+    "slot": 3,
+    "arm": "baseline",
+    "tp_rank": 0,
+    "file": "03-baseline-rank0.trace.json.gz",
+    "with_stack": false,
+    "source": "/volume/eval/users/jquan02/claude/sglang-glm52-nsys-20261108/profiles/glm53-pcp-torch-fresh-ops/03-baseline/03-baseline-1794196574.7903793-TP-0.trace.json.gz",
+    "sha256": "b3599f879e22403b76cbf032e89504dc4749d40af82ac5e28d0498c05fc1b2a1",
+    "bytes": 916697
+  }
+]

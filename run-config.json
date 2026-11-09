@@ -1,0 +1,26 @@
+{
+  "model": "GLM-5.3-Flash",
+  "hardware": "8 x H200",
+  "input_tokens": 1025,
+  "output_tokens": 1,
+  "server_args": {
+    "kv_cache_dtype": "bfloat16",
+    "attention_backend": "dsa",
+    "dsa_prefill_backend": "flashmla_sparse",
+    "dsa_decode_backend": "fa3",
+    "enable_prefill_cp": true,
+    "cp_strategy": "interleave",
+    "attn_cp_size": 8,
+    "tp_size": 8,
+    "attn_dp_size": 1,
+    "dcp_size": 1,
+    "speculative_algorithm": "EAGLE",
+    "speculative_num_draft_tokens": 4,
+    "speculative_num_steps": 3,
+    "disaggregation_mode": "null",
+    "enable_torch_compile": false
+  },
+  "prefill_graph_backend": "disabled",
+  "decode_graph_backend": "full",
+  "production_commit": "8a67df6cc24666ec8a648fe8a57b531c9d067d56"
+}
